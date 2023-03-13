@@ -1,0 +1,93 @@
+html, body {
+    margin: 10px;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+
+#color-pallete {
+    width: 100px;
+    height: 100px;
+    color: red;
+}
+
+#get-color-scheme {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #183768;
+    border: #D1D5DB 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #FFFFFF;
+    padding: 11px;;
+}
+
+
+.color {
+    width: 100px;
+    height: 100px;
+    color: red;
+    display: flex;
+}
+
+ .select {
+    font-weight: 500;
+    font-size: 1rem;
+    width: 37vw;
+    height: 42px;
+    background: whitesmoke;
+    border-radius: 5px;
+    padding: 8px;
+    text-transform: capitalize;
+}
+
+ #get-color,.container  {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    
+}
+
+#selected-color {
+    display: block;
+    width: 61px;
+    height: 42px;
+    padding: 0;
+    background: #FFFFFF;
+}
+
+.color-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.color-pallete {
+    width: 96%;
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.color {
+    height: 75vh;
+    position: relative;   
+}
+
+ .color > h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 500;
+    margin-top: 2px;
+    position: absolute;
+    bottom: -50px;
+    color: #183768;
+    
+}
+@media (min-width: 500px) {
+    .color h3 {
+        font-size: 20px;
+    }
+}
+
